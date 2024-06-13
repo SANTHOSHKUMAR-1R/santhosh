@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Launch Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <input type="text" id="search-bar" placeholder="Search...">
+    </nav>
+
+    <header>
+        <h1>Welcome to the Car Launch Event</h1>
+        <p>Discover the all-new Model X</p>
+    </header>
+
+    <section id="hero">
+        <h1>Model X</h1>
+        <p>The Future of Driving</p>
+        <div id="hero7">
+            
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <img src="abc.webp" alt="Feature 1">
+            <p>Advanced Safety Features</p>
+        </div>
+        <div class="feature">
+            <img src="car_back.webp" alt="Feature 2">
+            <p>Cutting-edge Technology</p>
+        </div>
+        <div class="feature">
+            <img src="abc.webp" alt="Feature 3">
+            <p>Luxurious Interior</p>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-item">
+            <img src="gtr.jpg" alt="Gallery Image 1" onclick="showDetails('Nissan GTR', '$120,000', 'June 2024')">
+        </div>
+        <div class="gallery-item">
+            <img src="ferrari.jpg" alt="Gallery Image 2" onclick="showDetails('Ferrari 488', '$280,000', 'July 2024')">
+        </div>
+        <div class="gallery-item">
+            <img src="https://imgd-ct.aeplcdn.com/664x415/cw/ec/21724/Audi-R8-New-Exterior-65294.jpg?v=201711021421&q=80" alt="Gallery Image 3" onclick="showDetails('Audi R8', '$150,000', 'August 2024')">
+        </div>
+    </section>
+
+    <section id="contact" class="login">
+        <h1>Contact Us</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Car Launch Event. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
